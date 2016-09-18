@@ -1,0 +1,82 @@
+body {
+	background-color: peachpuff;
+	font-family: Helvetica, Arial, sans-serif;
+	margin: 50px;
+	text-align: center;
+
+	background-image: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+	background-attachment: fixed;
+}
+
+.main {
+		background-color: rgba(255,255,255,0.2);
+		border-radius: 20px;
+		max-width: 600px;
+		margin: 20px auto;
+		padding: 20px;
+		box-shadow: rgba(255,255,255,0.4);
+
+}
+
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 50px;
+	margin: 0;
+	text-shadow: 5px, 5px, 5px, peachpuff;
+	font-family: 'Miriam Libre', sans-serif;
+}
+
+h2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: normal;
+	letter-spacing: 5px;
+}
+
+h2 span {
+	display: block;
+}
+
+h3 {
+	margin-bottom: 0;
+}
+h3:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+	border-radius: 50%;
+}
+
+p,
+ul,
+ol {
+	line-height: 1.6;
+	list-style: none;
+	padding-left: 10px;
+}
+
+.lol {
+	text-align: center;
+}
+
+a {
+	font-weight: bold;
+	text-decoration: none;
+	color: coral;
+
+}
+
+a:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+/* This is a CSS comment */
